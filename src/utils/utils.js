@@ -29,6 +29,7 @@ function chekearpalabra(string,raw){
             $(`#box-${x}${raw}`).attr('class','box-close')
          if(letraCorrecta(string[x],x)){
             // CAMBIAR COLOR A VERDE
+            // COMENTARIOS
             $(`#box-${x}${raw}`).attr('class','box-acert')
          }
         }
