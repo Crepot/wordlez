@@ -15,6 +15,7 @@ function insertarPalabra(string,raw){
         SI LA LETRA NO CUMPLE LAS CONDICIONES ANTERIORES
         Dejar la casilla normal
         */
+       // Comentario
         $(`#box-${i}${raw}`).text(`${string[i]}`);
     }
     chekearpalabra(string,raw);
