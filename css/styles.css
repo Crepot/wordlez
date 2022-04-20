@@ -1,0 +1,109 @@
+body{
+    align-items: center;
+    border: 30cm;
+    height: auto;
+    background: #333;
+  }
+
+.tableContainer{
+  margin: auto;
+}
+
+
+.table{
+  margin: auto;
+  padding: 10px;
+}
+
+.base{
+  margin: auto;
+  width: fit-content;
+}
+
+#newGame{
+  width: 350px;
+  height: 80px;
+  border: 0.5px solid #198d1e;
+  background-color:#46cc5d ;
+  color: aliceblue;
+  font-size: 48px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  opacity: 100;
+  translate: initial;
+}
+  
+  
+#newGame:hover {opacity: 0.6}
+
+.winner-modal{
+  /*visibility: hidden; */
+  position: absolute;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #3b3a3a;
+  background-color: #5c5b5b;
+  border-radius: 7px;
+  color: #dee2e4;
+  text-align: center;
+  font-size: 75px;
+}
+
+.box-acert {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #08db4e;
+  background-color: #5c5b5b;
+  border-radius: 7px;
+  color: #dee2e4;
+  text-align: center;
+  font-size: 75px;
+}
+
+.box-close {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #dbc608;
+  background-color: #5c5b5b;
+  border-radius: 7px;
+  color: #dee2e4;
+  text-align: center;
+  font-size: 75px;
+}
+
+.imput-word{
+  margin: auto;
+  width: fit-content;
+  position: relative;
+  margin-top: 20px;
+}
+
+.text-input-word{
+  font-size: 28px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
+  height: 50px;
+  border: 0.5px solid #498594;
+  border-radius: 15px;
+  padding-left: 20px;
+
+}
+
+.btn-submit{
+  width: 150px;
+  height: 50px;
+  border: 0.5px solid #498594;
+  background-color:#505251 ;
+  color: aliceblue;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  opacity: 100;
+  translate: initial;  
+}
